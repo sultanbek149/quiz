@@ -2502,6 +2502,347 @@ export const questions = [
     ]
   },
 
-  
+  {
+    "question": "What methods should not include software distribution (multiple choice)",
+    "answers": [
+      { "text": "Obtaining copies of help desk call logs to determine adverse impacts from changes.", "correct": true },
+      { "text": "Distribution is made in a timely manner only to those authorized.", "correct": false },
+      { "text": "A means is in place for ensuring verification of integrity, and this is incorporated into the installation.", "correct": false },
+      { "text": "A formal record exists of who has received software and where it has been implemented. This record should also match with the number of purchased licenses.", "correct": false }
+    ]
+  },
+  {
+    "question": "A change control management process typically covers the following:",
+    "answers": [
+      { "text": "Change request form, Controls, Change documentation", "correct": true },
+      { "text": "Controls, Hardware, Operating system software", "correct": false },
+      { "text": "Change documentation, Controls, Hardware", "correct": false },
+      { "text": "Hardware, Operating system software, Database instances, Application software", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the most important area of control in any information processing environment?",
+    "answers": [
+      { "text": "management that makes changes to existing systems", "correct": false },
+      { "text": "confirmation of the existing system", "correct": false },
+      { "text": "architecture of information systems", "correct": false },
+      { "text": "editorial management in the system", "correct": true }
+    ]
+  },
+  {
+    "question": "Potential objectives of change control management procedures include:",
+    "answers": [
+      { "text": "Remember the reason(s) of the change", "correct": false },
+      { "text": "Identify the personnel requesting the change", "correct": true },
+      { "text": "Just know who is making the changes", "correct": false },
+      { "text": "Let the staff know how the change will be made", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of them are not possible sources of information for members of the management board or the change control committee?",
+    "answers": [
+      { "text": "Data Center Operations", "correct": false },
+      { "text": "Networks/Telecommunications", "correct": false },
+      { "text": "Help Desk", "correct": false },
+      { "text": "Ordinary users", "correct": true }
+    ]
+  },
+  {
+    "question": "All key employees and departments affected by the change should be notified of its implementation schedule. Those who may require notification include:",
+    "answers": [
+      { "text": "End users of the system and manufacturers", "correct": true },
+      { "text": "Manufacturers and first users of the system", "correct": false },
+      { "text": "Passersby and testers", "correct": false },
+      { "text": "Any personnel not related to data control", "correct": false }
+    ]
+  },
+  {
+    "question": "Control of the physical inventory and the relationships between the components that form a set of “basic” objects that can be changed. What does it say here?",
+    "answers": [
+      { "text": "Conguration Management", "correct": true },
+      { "text": "change control management process", "correct": false },
+      { "text": "change control management procedures", "correct": false },
+      { "text": "organizational change management", "correct": false }
+    ]
+  },
+  {
+    "question": "What does the CIs stand for?",
+    "answers": [
+      { "text": "Continuous integration", "correct": false },
+      { "text": "Software Configuration Elements", "correct": true },
+      { "text": "Computer information", "correct": false },
+      { "text": "Computer integration", "correct": false }
+    ]
+  },
+  {
+    "question": "The change of culture and structure should be carried out throughout the entire life cycle. This includes people, organization, and culture. What does it say here?",
+    "answers": [
+      { "text": "Managing Organizational Change", "correct": true },
+      { "text": "Audit Involvement", "correct": false },
+      { "text": "Sample activities within such SCM plan.", "correct": false },
+      { "text": "Review Points", "correct": false }
+    ]
+  },
+  {
+    "question": "Authorization, Testing (acceptance of the device, system and user), Documentation these areas cover:",
+    "answers": [
+      { "text": "Audit Involvement", "correct": false },
+      { "text": "Managing Organizational Change", "correct": false },
+      { "text": "Scope", "correct": false },
+      { "text": "Objectives", "correct": true }
+    ]
+  },
+  {
+    "question": "How does SCM stand for?",
+    "answers": [
+      { "text": "Supply Chain Planning", "correct": false },
+      { "text": "Software configuration management", "correct": true },
+      { "text": "Supply Chain Management", "correct": false },
+      { "text": "There is no right answer", "correct": false }
+    ]
+  },
+  {
+    "question": "How many blocks does a flowchart consist of, depicting a standard change control management process?",
+    "answers": [
+      { "text": "4", "correct": true },
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "5", "correct": false }
+    ]
+  },
+  {
+    "question": "Errors in data processing usually relate to _______ and actual monitoring of the job processing.",
+    "answers": [
+      { "text": "job scheduling", "correct": true },
+      { "text": "Operating Policy", "correct": false },
+      { "text": "Procedures", "correct": false },
+      { "text": "end-user computing (EUC)", "correct": false }
+    ]
+  },
+  {
+    "question": "Physical security and access controls NOT include",
+    "answers": [
+      { "text": "Security alarms", "correct": false },
+      { "text": "Visitors logs", "correct": false },
+      { "text": "Schedule", "correct": true },
+      { "text": "Biometric authentication", "correct": false }
+    ]
+  },
+  {
+    "question": "BCP",
+    "answers": [
+      { "text": "business country plan", "correct": false },
+      { "text": "business continuity planning", "correct": true },
+      { "text": "business continuity plan", "correct": false },
+      { "text": "business country planning", "correct": false }
+    ]
+  },
+  {
+    "question": "DRP",
+    "answers": [
+      { "text": "Disaster Recovery Plan", "correct": true },
+      { "text": "Disaster Recovery Planning", "correct": false },
+      { "text": "Document Recovery Plan", "correct": false },
+      { "text": "Document Recording Plan", "correct": false }
+    ]
+  },
+  {
+    "question": "DRP is a",
+    "answers": [
+      { "text": "a tool that helps businesses create an event that disrupts business operations", "correct": false },
+      { "text": "survival tool that helps businesses respond to threats and recover in the wake of an event that disrupts normal business operations", "correct": true },
+      { "text": "a survival tool that helps create threats and not recover from an event that disrupts the normal operation of the business.", "correct": false },
+      { "text": "describe processes, steps, and/or procedures to be carried out in the event of an emergency (i.e., natural disaster or an unplanned interruption to normal business operations) to achieve a timely recovery and availability of all essential business processes, including the information systems.", "correct": false }
+    ]
+  },
+  {
+    "question": "The DRP should identify various levels of recovery, from an isolated event to a widespread disaster.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Why are physical security and access controls important to organizations",
+    "answers": [
+      { "text": "control movement of servers, network-related equipment", "correct": true },
+      { "text": "permits theft, damage and unauthorized access to data and software", "correct": false },
+      { "text": "grants access to every user and keeps documents in the public domain", "correct": false },
+      { "text": "helps businesses create an event that disrupts business operations", "correct": false }
+    ]
+  },
+  {
+    "question": "DRP should address components:\n1. Objectives and mission statement 2. Key personnel involved 3. Full and incremental program and data backups 4. Tests and drills 5. Program and data backups stored off-site 6. Disaster recovery chairperson and committee appointed",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Once controls are in place, they can be tested for adequacy and effectiveness. Who does this?",
+    "answers": [
+      { "text": "IT Specialist", "correct": false },
+      { "text": "auditors", "correct": true },
+      { "text": "Accountant", "correct": false },
+      { "text": "Business Process Controller.", "correct": false }
+    ]
+  },
+  {
+    "question": "Who should evaluate the controls and determine whether the objectives have been achieved?",
+    "answers": [
+      { "text": "IT Specialist", "correct": false },
+      { "text": "auditors", "correct": false },
+      { "text": "Accountant", "correct": false },
+      { "text": "IT auditors", "correct": true }
+    ]
+  },
+  {
+    "question": "How many of the organizations surveyed have either moved most of their business continuity and disaster recovery tasks to the cloud (including backup) or plan to do so in the near future?",
+    "answers": [
+      { "text": "44%", "correct": true },
+      { "text": "34%", "correct": false },
+      { "text": "54%", "correct": false },
+      { "text": "64%", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the three fundamental objectives for information and confidentiality?",
+    "answers": [
+      { "text": "Confidentiality, integrity, availability", "correct": true },
+      { "text": "Confidentiality, encryption, integrity", "correct": false },
+      { "text": "Confidentiality, availability, consistency", "correct": false },
+      { "text": "Integrity, connectivity, accuracy", "correct": false }
+    ]
+  },
+  {
+    "question": "What is FIPS?",
+    "answers": [
+      { "text": "Federal Information Processing Standards", "correct": true },
+      { "text": "Federal Information Protection Standards", "correct": false },
+      { "text": "Federal Instruction Principal Security", "correct": false },
+      { "text": "Federal Instruction Processing Standards", "correct": false }
+    ]
+  },
+  {
+    "question": "What is ERP?",
+    "answers": [
+      { "text": "Enterprise Resource Planning", "correct": true },
+      { "text": "Enterprise Rescue Plan", "correct": false },
+      { "text": "Educational Resource Planning", "correct": false },
+      { "text": "Educational Rescue Plan", "correct": false }
+    ]
+  },
+  {
+    "question": "Primary ERP supplies include:",
+    "answers": [
+      { "text": "SAP, Oracle, Microsoft", "correct": true },
+      { "text": "Java, React, SOAP", "correct": false },
+      { "text": "SAP, SOAP, Microsoft", "correct": false },
+      { "text": "Java, Oracle, React", "correct": false }
+    ]
+  },
+  {
+    "question": "Based on the July 2015’s ISACA Innovation Insights report, which one was considered as a key trend driving business?",
+    "answers": [
+      { "text": "Cloud computing", "correct": true },
+      { "text": "BPM", "correct": false },
+      { "text": "Oracle", "correct": false },
+      { "text": "Kaspersky", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the main tool which is used by cloud computing?",
+    "answers": [
+      { "text": "Internet", "correct": true },
+      { "text": "VPN", "correct": false },
+      { "text": "SSD", "correct": false },
+      { "text": "HDD", "correct": false }
+    ]
+  },
+  {
+    "question": "MDM stands for:",
+    "answers": [
+      { "text": "Mobile Device Management", "correct": true },
+      { "text": "Mobile Desktop Manager", "correct": false },
+      { "text": "Machine Division Manager", "correct": false },
+      { "text": "Middle Device Maintenance", "correct": false }
+    ]
+  },
+  {
+    "question": "MDM is responsible for:",
+    "answers": [
+      { "text": "Managing and administrating mobile devices", "correct": true },
+      { "text": "Storing and showing mobile devices", "correct": false },
+      { "text": "Managing and storing mobile devices", "correct": false },
+      { "text": "Only administrating mobile devices", "correct": false }
+    ]
+  },
+  {
+    "question": "Employees can bring their own mobile device to the organization",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "How can mobile devices be used in organizations?",
+    "answers": [
+      { "text": "Personal and work purposes", "correct": true },
+      { "text": "Personal and common purposes", "correct": false },
+      { "text": "Work and common purposes", "correct": false },
+      { "text": "Public and common purposes", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following has a potential transformational effect on IT environments, data centers, technology providers?",
+    "answers": [
+      { "text": "IoT", "correct": true },
+      { "text": "MDM", "correct": false },
+      { "text": "BPM", "correct": false },
+      { "text": "ERP", "correct": false }
+    ]
+  },
+  {
+    "question": "IoT, as defined by Gartner, Inc., is a system that allows remote assets from 'things' (e.g., stationary or mobile devices, sensors, objects, etc.) to interact and communicate among them and with other network systems.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "What is 'spamming'?",
+    "answers": [
+      { "text": "Disruptive online messages, especially commercial messages posted on a computer network or sent as email.", "correct": true },
+      { "text": "Attack designed to disable a network by flooding it with useless traffic.", "correct": false },
+      { "text": "Piece of program code that contains self-reproducing logic, which piggybacks onto other programs and cannot survive by itself.", "correct": false },
+      { "text": "Independent program code that replicates itself and eats away at data, uses up memory, and slows down processing.", "correct": false }
+    ]
+  },
+  {
+    "question": "What is 'Denial-of-service attack'?",
+    "answers": [
+      { "text": "Attack designed to disable a network by flooding it with useless traffic.", "correct": true },
+      { "text": "Disruptive online messages, especially commercial messages posted on a computer network or sent as email.", "correct": false },
+      { "text": "Piece of program code that contains self-reproducing logic, which piggybacks onto other programs and cannot survive by itself.", "correct": false },
+      { "text": "Independent program code that replicates itself and eats away at data, uses up memory, and slows down processing.", "correct": false }
+    ]
+  },
+  {
+    "question": "What is 'worm'?",
+    "answers": [
+      { "text": "Independent program code that replicates itself and eats away at data, uses up memory, and slows down processing.", "correct": true },
+      { "text": "Attack designed to disable a network by flooding it with useless traffic.", "correct": false },
+      { "text": "Disruptive online messages, especially commercial messages posted on a computer network or sent as email.", "correct": false },
+      { "text": "Piece of program code that contains self-reproducing logic, which piggybacks onto other programs and cannot survive by itself.", "correct": false }
+    ]
+  },
+  {
+    "question": "How many categories does the Feasibility Analysis include?",
+    "answers": [
+      { "text": "3", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "6", "correct": false },
+      { "text": "9", "correct": false }
+    ]
+  }
 ]
-
