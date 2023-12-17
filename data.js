@@ -1715,7 +1715,793 @@ export const questions = [
     ]
   },
 
+  {
+    "question": "What are best practice processes (or requirements) implemented to guide toward a solution?",
+    "answers": [
+      { "text": "Strategy", "correct": false },
+      { "text": "Transition", "correct": false },
+      { "text": "Continuous Improvement", "correct": false },
+      { "text": "Design", "correct": true }
+    ]
+  },
+  {
+    "question": "How many principles does the COBIT based on?",
+    "answers": [
+      { "text": "Three", "correct": false },
+      { "text": "Nine", "correct": false },
+      { "text": "Five", "correct": true },
+      { "text": "Seven", "correct": false }
+    ]
+  },
+  {
+    "question": "According to a Gartner Group report....",
+    "answers": [
+      { "text": "95% of businesses do not have a well-defined business strategy", "correct": true },
+      { "text": "85% of businesses do not have a well-defined business strategy", "correct": false },
+      { "text": "95% of businesses have a well-defined business strategy", "correct": false },
+      { "text": "85% of businesses have a well-defined business strategy", "correct": false }
+    ]
+  },
+  {
+    "question": "Who should be responsible for developing and implementing the IT strategy?",
+    "answers": [
+      { "text": "senior management of the organization", "correct": true },
+      { "text": "developers", "correct": false },
+      { "text": "designers", "correct": false },
+      { "text": "analysts", "correct": false }
+    ]
+  },
+  {
+    "question": "The basics of the CIO function as described by the Society for Human Resource Management include:\n-Formal communication of new or revised information systems policies and procedures to all users in the organization.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "The IT Steering Committee may include:\n◾ Analysis of business and technology strategies and plans.\n◾ Prioritization of major development projects.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Projects need to be reviewed early in their life cycle to ensure they have a sound _________.",
+    "answers": [
+      { "text": "Business case", "correct": true },
+      { "text": "Plan", "correct": false },
+      { "text": "Roadmap", "correct": false },
+      { "text": "Developers", "correct": false }
+    ]
+  },
+  {
+    "question": "From what points of view is the risk assessed?",
+    "answers": [
+      { "text": "likelihood and impact.", "correct": true },
+      { "text": "event and analysis", "correct": false },
+      { "text": "assessment and verification", "correct": false },
+      { "text": "event and impact", "correct": false }
+    ]
+  },
+  {
+    "question": "Critical - risks can lead, for example, to bankruptcy?",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Minor - possible losses will not lead to bankruptcy but will require the company to",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "question": "What is information?",
+    "answers": [
+      { "text": "The data we get from interacting with the environment", "correct": false },
+      { "text": "Data is organized and processed to give meaning and thus improve decision making.", "correct": true },
+      { "text": "Data that is correct", "correct": false },
+      { "text": "Data that consists of information about everything", "correct": false }
+    ]
+  },
+  {
+    "question": "Relevance: the information is relevant and applicable to the decision (for example, for a decision to extend a loan, the client will need relevant information about the client's balance from the receivables maturities report, etc.).",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "In terms of risk assessments, what are Unimportant risks?",
+    "answers": [
+      { "text": "these are risks that can lead, for example, to bankruptcy.", "correct": false },
+      { "text": "possible losses would not lead to bankruptcy but require the company to take out loans to continue operations.", "correct": false },
+      { "text": "exposures that could be accommodated by existing assets or current income without imposing undue financial strain.", "correct": true },
+      { "text": "A method developed by IBM that assesses the probable loss and the frequency of occurrence for all unacceptable events for each automated system or data file.", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the Transfer way in risk response?",
+    "answers": [
+      { "text": "Completely eliminate the risk. For example, a new feature included within the next application software release is estimated to downgrade application performance by slowing down some critical processing. To avoid the risk, the software feature is eliminated from the next release.", "correct": false },
+      { "text": "Risk through implementing IT controls, such as performing validity checks upon inputting data; cleaning disk drives and properly storing magnetic and optical media to reduce the risk of hardware and software failures; configuring logical setting security controls in the application system.", "correct": false },
+      { "text": "Risk through taking mitigation actions, such as having controls detecting errors after data are complete. Examples of these include implementing user access reviews, conducting reconciliations, and performing data transmission controls, among others.", "correct": false },
+      { "text": "Common methods of risk transfer include acquiring insurance or outsourcing services. As an example, a company that needs to update its financial application system may choose to outsource or subcontract such a project to an outsider.", "correct": true }
+    ]
+  },
+  {
+    "question": "___ are intended to discover problems that cannot be prevented. Examples of a detective control include performing reconciliations of bank accounts, trial balances, etc. What type of control is this part?",
+    "answers": [
+      { "text": "Detective", "correct": true },
+      { "text": "Preventive", "correct": false },
+      { "text": "Corrective", "correct": false },
+      { "text": "Transfer", "correct": false }
+    ]
+  },
+  {
+    "question": "Two or more independent people can produce the same conclusion. In the item information and communication, what type is this?",
+    "answers": [
+      { "text": "Relevant", "correct": false },
+      { "text": "Complete", "correct": false },
+      { "text": "Understandable", "correct": false },
+      { "text": "Verifiable", "correct": true }
+    ]
+  },
+  {
+    "question": "The work of the IT department, headed by the chief technology officer (CTO)?",
+    "answers": [
+      { "text": "would be evaluating, managing, and accepting the risks associated with this type of enterprise-wide technology.", "correct": false },
+      { "text": "create optimal value from IT by maintaining a balance between realizing benefits and optimizing risk levels and resource use.", "correct": false },
+      { "text": "of standards includes techniques that help organizations secure their information assets", "correct": false },
+      { "text": "compelling federal government requirements for IT standards related to security and interoperability, and there are no acceptable industry standards or solutions.", "correct": true }
+    ]
+  },
+
+  {
+    "question": "NIST.gov. has provided a number of audit, control, and security resources as well as identification of best practices in managing and reviewing IT risk in many areas.",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "question": "Statements on Auditing Standards (SAS) are issued by the Auditing Standards Board of the AICPA and are recognized as interpretations of the 10 generally accepted auditing standards.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Government Accountability Office (GAO) –",
+    "answers": [
+      { "text": "is a nonpartisan agency within the legislative branch of the government.", "correct": true },
+      { "text": "is a world-wide not-for-profit association of more than 28,000 practitioners dedicated to IT audit, control, and security in over 100 countries.", "correct": false },
+      { "text": "is a well-known IT governance framework that helps organizations in the areas of regulatory compliance and alignment of IT strategy and organizational goals", "correct": false },
+      { "text": "is an organization that develops guidelines for businesses to evaluate internal controls, risk management, and fraud deterrence.", "correct": false }
+    ]
+  },
+  {
+    "question": "____ helps organizations create optimal value from IT by maintaining a balance between realizing benefits and optimizing risk levels and resource use.",
+    "answers": [
+      { "text": "ISO/IEC", "correct": false },
+      { "text": "COBIT", "correct": true },
+      { "text": "NIST", "correct": false },
+      { "text": "GAO", "correct": false }
+    ]
+  },
+  {
+    "question": "Choose the correct question of prevention risk response technique",
+    "answers": [
+      { "text": "Is the risk too expensive to avoid?", "correct": false },
+      { "text": "Can the risk be partially reduced and partially transferred?", "correct": false },
+      { "text": "Are there controls in place to prevent the risk from occurring?", "correct": true },
+      { "text": "Is the risk too time-consuming to avoid?", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the purpose of project management?",
+    "answers": [
+      { "text": "The purpose of project management is to negotiate with customers and warn about the timing of tasks", "correct": false },
+      { "text": "The purpose of project management is to identify, establish, coordinate, and monitor activities, tasks, and resources for a project that is consistent with the goals and objectives of the organization.", "correct": true },
+      { "text": "The purpose of project management is the quality and timing of the project", "correct": false },
+      { "text": "The purpose of project management is to oversee the project and create presentations", "correct": false }
+    ]
+  },
+  {
+    "question": "What project management methodologies exist?",
+    "answers": [
+      { "text": "Business Modeling Methodology; Architecture methodology", "correct": false },
+      { "text": "Operational; Functional; Traditional", "correct": false },
+      { "text": "Traditional / Waterfall; Agile Project Management; Systems Development Life Cycle", "correct": true },
+      { "text": "All of the above", "correct": false }
+    ]
+  },
+  {
+    "question": "What does SDLC stand for?",
+    "answers": [
+      { "text": "Systems Design Limited Cycle", "correct": false },
+      { "text": "Systematic Designed Life Cycle", "correct": false },
+      { "text": "Software Development Life Cycle", "correct": false },
+      { "text": "Systems Development Life Cycle", "correct": true }
+    ]
+  },
+  {
+    "question": "When to use the Agile Methodology?",
+    "answers": [
+      { "text": "Used in projects requiring special flexibility in requirements, focuses on adaptability to changing situations and constant feedback.", "correct": true },
+      { "text": "Used in evaluating various project objectives and provides a process for managing and monitoring completion of these tasks.", "correct": false },
+      { "text": "Used in large-scale software development projects where careful planning and predictable processes are vital.", "correct": false },
+      { "text": "No correct answer", "correct": false }
+    ]
+  },
+  {
+    "question": "What does NOT include project management tools?",
+    "answers": [
+      { "text": "Labor hour tracking", "correct": false },
+      { "text": "Time capture and billing", "correct": false },
+      { "text": "Development testing", "correct": true },
+      { "text": "Project budgeting", "correct": false }
+    ]
+  },
+  {
+    "question": "What are the responsibilities of a project manager?",
+    "answers": [
+      { "text": "Deliverables are produced successfully and in a timely fashion; Management is being communicated with and sufficiently involved.", "correct": false },
+      { "text": "The project has a work breakdown structure that is sufficiently detailed to carry out; Project tasks are prioritized to prevent interference with other projects due dates.", "correct": false },
+      { "text": "Appropriate governance is in place; Right resources, such as money, people, and facilities are available at the right time.", "correct": false },
+      { "text": "All of the above", "correct": true }
+    ]
+  },
+  {
+    "question": "Which groups does the auditor establish relationships with?",
+    "answers": [
+      { "text": "Database administrators", "correct": true },
+      { "text": "Marketing team", "correct": false },
+      { "text": "Clients", "correct": false },
+      { "text": "Cloud administrators", "correct": false }
+    ]
+  },
+  {
+    "question": "Which includes the area of management and monitoring and control?",
+    "answers": [
+      { "text": "Includes managing teams effectively while coordinating expectations and achieving milestones on time and within budget.", "correct": false },
+      { "text": "Includes the processes, activities and skills needed to assess the definition of start project. They appear in self-installed permits, authorizations, and initial work orders.", "correct": false },
+      { "text": "Includes processing change requests, reviewing the current budget, considerations and mitigation of contingencies that could impair the ability of the team to meet the original goals and expectations of the project.", "correct": true },
+      { "text": "Includes defining the scope of the project; establishes strategic plans to maximize workflow; defines the goals and expectations of the project; makes priority lists", "correct": false }
+    ]
+  },
+  {
+    "question": "From what project management audit begins?",
+    "answers": [
+      { "text": "Assessment of adequacy of the control environment", "correct": false },
+      { "text": "Representation of checkpoints", "correct": false },
+      { "text": "Preliminary analysis of the control environment", "correct": true },
+      { "text": "Review of project task list and budget", "correct": false }
+    ]
+  },
+  {
+    "question": "Where does the task of the auditor to determine the level of participation begin?",
+    "answers": [
+      { "text": "Risk assessment", "correct": true },
+      { "text": "Workload", "correct": false },
+      { "text": "Distribution of tasks", "correct": false },
+      { "text": "Audit plan", "correct": false }
+    ]
+  },
+  {
+    "question": "During which phase the auditor can facilitate communication between functions and raise issues that may impact the quality of the project?",
+    "answers": [
+      { "text": "Initiating", "correct": false },
+      { "text": "Closing", "correct": false },
+      { "text": "Executing", "correct": false },
+      { "text": "Planning", "correct": true }
+    ]
+  },
+  {
+    "question": "The scope of a project management audit can include an evaluation of the administrative controls over the project.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "What does PERT stand for in an IT audit?",
+    "answers": [
+      { "text": "Progress Evaluation and Renew Technique", "correct": false },
+      { "text": "Program Evaluation and Review Technique", "correct": true },
+      { "text": "Program Effectiveness and Review Technique", "correct": false },
+      { "text": "Progress Effectiveness and Renew Technique", "correct": false }
+    ]
+  },
+  {
+    "question": "The PMI defines methodology as a 'system of practices, techniques, procedures and rules used by those who work in a discipline.'",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary standards organization for project management?",
+    "answers": [
+      { "text": "Project Organization Institute", "correct": false },
+      { "text": "International Standard Organization", "correct": false },
+      { "text": "Project Standard Institute", "correct": false },
+      { "text": "Project Management Institute", "correct": true }
+    ]
+  },
+  {
+    "question": "SDLC stands for…",
+    "answers": [
+      { "text": "System Design Limited Cycle", "correct": false },
+      { "text": "Systematic Designed Life Cycle", "correct": false },
+      { "text": "Software Development Life Cycle", "correct": false },
+      { "text": "Systems Development Life Cycle", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of these is the correct order of the SDLC?",
+    "answers": [
+      { "text": "Maintenance, Planning, Design, Analysis, Implementation", "correct": false },
+      { "text": "Analysis, Planning, Design, Maintenance, Implementation", "correct": false },
+      { "text": "Planning, Analysis, Design, Implementation, Maintenance", "correct": true },
+      { "text": "Planning, Analysis, Implementation, Design, Maintenance", "correct": false }
+    ]
+  },
+  {
+    "question": "What happens in the design phase?",
+    "answers": [
+      { "text": "The code is produced", "correct": false },
+      { "text": "Making changes when the software has been created", "correct": false },
+      { "text": "Planning the solution, look and feel of the software interface", "correct": true },
+      { "text": "Ensuring the requirements are understood", "correct": false }
+    ]
+  },
+  {
+    "question": "What happens in the implementation phase?",
+    "answers": [
+      { "text": "The code is tested against the specification", "correct": false },
+      { "text": "Making changes when the software has been created", "correct": false },
+      { "text": "Planning the solution, look and feel of the software interface", "correct": false },
+      { "text": "The deliverables of the implementation stage are created e.g. the code", "correct": true }
+    ]
+  },
+  {
+    "question": "What happens in the Analysis Stage?",
+    "answers": [
+      { "text": "Look at the existing system and find areas to improve", "correct": true },
+      { "text": "Create the new system and test it", "correct": false },
+      { "text": "Place the new system into the company for use", "correct": false },
+      { "text": "Decide how well the new system is working", "correct": false }
+    ]
+  },
+  {
+    "question": "Which stage comes after Design?",
+    "answers": [
+      { "text": "Evaluation", "correct": false },
+      { "text": "Documentation", "correct": false },
+      { "text": "Development and Testing", "correct": true },
+      { "text": "Design", "correct": false }
+    ]
+  },
+  {
+    "question": "What happens in the Development and Testing Stage?",
+    "answers": [
+      { "text": "Plan the proposed system", "correct": false },
+      { "text": "Place the new system into the company for use", "correct": false },
+      { "text": "Decide how well the new system is working", "correct": false },
+      { "text": "Create the new system and test it", "correct": true }
+    ]
+  },
+  {
+    "question": "User Manuals and Technical guides are created in which stage of the System Analysis and Design?",
+    "answers": [
+      { "text": "Design", "correct": false },
+      { "text": "Analysis", "correct": false },
+      { "text": "Documentation", "correct": true },
+      { "text": "Evaluation", "correct": false }
+    ]
+  },
+  {
+    "question": "How many types of testing are given in system life cycle",
+    "answers": [
+      { "text": "1", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false },
+      { "text": "4", "correct": true }
+    ]
+  },
+  {
+    "question": "Which of them is the slowest method of system implementation.",
+    "answers": [
+      { "text": "Direct", "correct": false },
+      { "text": "Parallel", "correct": true },
+      { "text": "Pilot", "correct": false },
+      { "text": "Phased", "correct": false }
+    ]
+  },
+  {
+    "question": "Allowing the designer of the new system to review documentation. What needs to take place to make sure a newly developed system works correctly?",
+    "answers": [
+      { "text": "Testing", "correct": true },
+      { "text": "Designing", "correct": false },
+      { "text": "Backing up", "correct": false },
+      { "text": "Evaluating", "correct": false }
+    ]
+  },
+  {
+    "question": "Conversion strategies used to change from the old system to the new system.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "A rudimentary prototype can be redesigned and enhanced many times before the final form is accepted.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Define SDLC",
+    "answers": [
+      { "text": "Set of activities / phases used to build a multimedia", "correct": false },
+      { "text": "Set of activities / phases used to build an information system", "correct": true },
+      { "text": "Set of activities / phases used to build a multimedia and information system", "correct": false },
+      { "text": "Set of activities / phases used to build a data model", "correct": false }
+    ]
+  },
+  {
+    "question": "ERP is:",
+    "answers": [
+      { "text": "Financial planning systems", "correct": false },
+      { "text": "Enterprise resource planning systems", "correct": true },
+      { "text": "Material requirements planning systems", "correct": false },
+      { "text": "Enterprise resource planning systems synchronized with the customer", "correct": false }
+    ]
+  },
+  {
+    "question": "On what basis are ERP systems usually built?",
+    "answers": [
+      { "text": "Modular", "correct": true },
+      { "text": "By discrete", "correct": false },
+      { "text": "By context", "correct": false },
+      { "text": "By production", "correct": false }
+    ]
+  },
+  {
+    "question": "The main areas for the dissemination of security information are:",
+    "answers": [
+      { "text": "Development, managers, company administrators", "correct": false },
+      { "text": "Law, government, business", "correct": false },
+      { "text": "Network databases, firewalls", "correct": false },
+      { "text": "IT, users, management", "correct": true }
+    ]
+  },
+  {
+    "question": "After launching the application into production, what kind of access is available to programmers?",
+    "answers": [
+      { "text": "For editing", "correct": false },
+      { "text": "Read-only", "correct": true },
+      { "text": "For modification", "correct": false },
+      { "text": "All answers are correct", "correct": false }
+    ]
+  },
+  {
+    "question": "Which devices are really at risk of 'Remote Access' if it is unauthorized?",
+    "answers": [
+      { "text": "Client devices", "correct": true },
+      { "text": "Standard devices", "correct": false },
+      { "text": "Organizational devices", "correct": false },
+      { "text": "Organizational client devices", "correct": false }
+    ]
+  },
+  {
+    "question": "What does EUD stand for?",
+    "answers": [
+      { "text": "End-user development", "correct": true },
+      { "text": "End User Devices", "correct": false },
+      { "text": "End User Diagnostics", "correct": false },
+      { "text": "None of them", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the description of Field check",
+    "answers": [
+      { "text": "Confirms that characters in a field are of a proper type.", "correct": true },
+      { "text": "Checks that the size of the data entered fits into the specific field", "correct": false },
+      { "text": "Corroborates that all required and necessary data is entered.", "correct": false },
+      { "text": "Checks for correctness of logical relationship between two data items.", "correct": false }
+    ]
+  },
+  {
+    "question": "What does EDI stands for?",
+    "answers": [
+      { "text": "Electronic Data Interchange", "correct": true },
+      { "text": "Electron Drift Instrument", "correct": false },
+      { "text": "Electronic Document Interchange", "correct": false },
+      { "text": "None of them", "correct": false }
+    ]
+  },
+  {
+    "question": "Based on the McAfee Labs report, 650 million virus attacks are approaching in December",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "The scope of a project management audit can include an evaluation of the administrative controls over the project.",
+    "answers": [
+      { "text": "False", "correct": false },
+      { "text": "True", "correct": true }
+    ]
+  },
+  {
+    "question": "Which groups does the auditor establish relationships with?",
+    "answers": [
+      { "text": "Database administrators", "correct": true },
+      { "text": "Marketing team", "correct": false },
+      { "text": "Clients", "correct": false },
+      { "text": "Cloud administrators", "correct": false }
+    ]
+  },
+  {
+    "question": "What is ERP?",
+    "answers": [
+      { "text": "Enterprise Resource Planning", "correct": true },
+      { "text": "Enterprise Rescue Plan", "correct": false },
+      { "text": "Educational Resource Planning", "correct": false },
+      { "text": "Educational Rescue Plan", "correct": false }
+    ]
+  },
+  {
+    "question": "Which stage comes after Design?",
+    "answers": [
+      { "text": "Evaluation", "correct": false },
+      { "text": "Documentation", "correct": false },
+      { "text": "Development and Testing", "correct": true },
+      { "text": "Design", "correct": false }
+    ]
+  },
+  {
+    "question": "How many types of testing are given in the system life cycle",
+    "answers": [
+      { "text": "4", "correct": true },
+      { "text": "3", "correct": false },
+      { "text": "9", "correct": false },
+      { "text": "6", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of the following has a potential transformational effect on IT environments, data centers, technology providers?",
+    "answers": [
+      { "text": "IoT", "correct": true },
+      { "text": "MDM", "correct": false },
+      { "text": "BPM", "correct": false },
+      { "text": "ERP", "correct": false }
+    ]
+  },
+  {
+    "question": "The goal of this strategy is to ensure that systems to be integrated well and are compatible with existing software and technology infrastructure",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Select one of the processes of Systems Acquisition Process",
+    "answers": [
+      { "text": "Observing related business processes.", "correct": false },
+      { "text": "Carrying out the selection process", "correct": true },
+      { "text": "Researching other companies in a related industry", "correct": false },
+      { "text": "Meeting with IT management and support staff", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the final process of Systems Acquisition Process?",
+    "answers": [
+      { "text": "Performing a feasibility analysis", "correct": false },
+      { "text": "Procuring selected software", "correct": false },
+      { "text": "Completing final acceptance", "correct": true },
+      { "text": "Identifying alternatives", "correct": false }
+    ]
+  },
+  {
+    "question": "Which option describes the economic category of performing a feasibility analysis?",
+    "answers": [
+      { "text": "Reviews any related legal or contractual obligations associated with the proposed system.", "correct": false },
+      { "text": "Examines how well the proposed system solves business problems or provides opportunities to the business", "correct": false },
+      { "text": "It evaluates the consistency of the proposed system with the company’s technical strategy, infrastructure, and resources", "correct": false },
+      { "text": "The expenses of a system include procurement, start-up, project-specific issues, and the impact to operations.", "correct": true }
+    ]
+  },
+  {
+    "question": "A Request for Proposal (RFP) offers flexibility to respondents to further define or explore the requested requirements",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Choose the option that does NOT include as a software contract terms",
+    "answers": [
+      { "text": "Terms or limitations with the use of any related trademark rights or copyrights.", "correct": false },
+      { "text": "Supplier staffing and specified qualifications.", "correct": false },
+      { "text": "Documentation for business analysis processes", "correct": true },
+      { "text": "Description of payment terms", "correct": false }
+    ]
+  },
+  {
+    "question": "Request for Information (RFI) is a document that specifies the minimally acceptable requirements (functional, technical, and contractual)",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "_______________ for an organization includes defined IT services; SLAs; design services and pricing; service engagement and delivery; and service measurements to track performance.",
+    "answers": [
+      { "text": "The service management process", "correct": false },
+      { "text": "The risk management process", "correct": false },
+      { "text": "The project management", "correct": false },
+      { "text": "The change control management", "correct": true }
+    ]
+  },
+  {
+    "question": "Service management is dependent on well-functioning processes in asset management, financial management, service delivery, service desk, problem management, change management, and relationship management.",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Choose the wrong answer: 'SLA can be made between?'",
+    "answers": [
+      { "text": "Between IT and its customers", "correct": false },
+      { "text": "Between operations and application groups", "correct": false },
+      { "text": "Between suppliers and IT", "correct": false },
+      { "text": "Between customers and suppliers", "correct": true }
+    ]
+  },
+  {
+    "question": "SLA –",
+    "answers": [
+      { "text": "Service Level Agreement", "correct": true },
+      { "text": "Service Local Application", "correct": false },
+      { "text": "Service Local Audit", "correct": false },
+      { "text": "Security level audit", "correct": false }
+    ]
+  },
+  {
+    "question": "Types of Service Level Agreement – Customer Service Level Agreement, Operating Service Level Agreement, Supplier Service Level Agreement",
+    "answers": [
+      { "text": "TRUE", "correct": false },
+      { "text": "FALSE", "correct": true }
+    ]
+  },
+  {
+    "question": "An operating level agreement helps set expectations between",
+    "answers": [
+      { "text": "Between IT and its customers", "correct": false },
+      { "text": "Between operations and application groups", "correct": true },
+      { "text": "Between suppliers and IT", "correct": false },
+      { "text": "Between customers and suppliers", "correct": false }
+    ]
+  },
+  {
+    "question": "All models in service management require an internal process",
+    "answers": [
+      { "text": "Manage service levels, costs, risk", "correct": true },
+      { "text": "Manage client service, costs, risk", "correct": false },
+      { "text": "Manage operating service, costs, supporting", "correct": false },
+      { "text": "Manage service, costs, supporting", "correct": false }
+    ]
+  },
+  {
+    "question": "Internal measures keep the IT group focused on things the customer cares about.",
+    "answers": [
+      { "text": "TRUE", "correct": true },
+      { "text": "FALSE", "correct": false }
+    ]
+  },
+  {
+    "question": "Tools are needed to capture performance, usage metrics from the various platforms, and to consolidate and report on all of this information.",
+    "answers": [
+      { "text": "TRUE", "correct": true },
+      { "text": "FALSE", "correct": false }
+    ]
+  },
+  {
+    "question": "Service organizations (S.O.) are established to offer services to organizations that decide to outsource, for example, their data processing services.",
+    "answers": [
+      { "text": "TRUE", "correct": true },
+      { "text": "FALSE", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the main purpose of an IT change control management?",
+    "answers": [
+      { "text": "Implementation of new features", "correct": false },
+      { "text": "Ensure the integrity, availability, reliability, security, confidentiality, and accuracy of an organization or IT system supporting the organization", "correct": true },
+      { "text": "Security implementation", "correct": false },
+      { "text": "VR app development", "correct": false }
+    ]
+  },
+  {
+    "question": "Is the change management system part of the three main computer systems?",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "The change management process does not benefit organizations by reducing system disruptions",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "question": "Is ensuring a consistent implementation of changes that allows management to allocate staff and system time efficiently and meet planned implementation deadlines a benefit of change control management?",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "A change control management process typically covers:",
+    "answers": [
+      { "text": "Change request form", "correct": false },
+      { "text": "Hardware releases", "correct": false },
+      { "text": "Controls", "correct": false },
+      { "text": "Change documentation", "correct": true }
+    ]
+  },
+  {
+    "question": "A change request form ensures that only authorized changes are implemented",
+    "answers": [
+      { "text": "True", "correct": true },
+      { "text": "False", "correct": false }
+    ]
+  },
+  {
+    "question": "Which law is appropriate for integrating change requests, software changes, and software distribution",
+    "answers": [
+      { "text": "Regulation on TC 34", "correct": false },
+      { "text": "Bylaws in the field of ICT", "correct": false },
+      { "text": "Model Legislation", "correct": false },
+      { "text": "Sarbanes-Oxley Act of 2002", "correct": true }
+    ]
+  },
+  {
+    "question": "Git is not a VCS change tracking tool",
+    "answers": [
+      { "text": "True", "correct": false },
+      { "text": "False", "correct": true }
+    ]
+  },
+  {
+    "question": "What is Application Software for?",
+    "answers": [
+      { "text": "Application software is computing software designed to perform a specific task, other than one that is not related to the operation of a computer and is usually intended for use with first-time users.", "correct": false },
+      { "text": "Application software is computing software designed to perform a specific task other than that related to the operation of the computer itself and is usually intended for use by end users.", "correct": true },
+      { "text": "Application software is changes that are required outside of a set schedule.", "correct": false },
+      { "text": "Application software is the changes that are required within the established schedule.", "correct": false }
+    ]
+  },
+  {
+    "question": "Which of these is not one of the types of Change Control Management Process",
+    "answers": [
+      { "text": "Routine", "correct": false },
+      { "text": "Non-standard", "correct": false },
+      { "text": "Non-urgent", "correct": true },
+      { "text": "extraordinary", "correct": true },
+    ]
+  },
+
+  
 ]
-
-
 
